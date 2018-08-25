@@ -4,13 +4,20 @@ import { HashRouter } from "react-router-dom";
 import './reset.css'
 import './App.css';
 
+import Nav from "./components/nav/nav";
+
+import routes from './routes';
 
 class App extends Component {
+
   render() {
+
     return (
       <HashRouter>
         <div>
-          <h1>This is an App I just made!!!</h1>
+          <Nav />
+          {routes}
+
         </div>
       </HashRouter>
     );

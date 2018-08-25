@@ -1,0 +1,21 @@
+.navBar {
+    height: 100vh;
+    width: 100px;
+    float: left;
+    background: lightslategray;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+
+img {
+    height: 60px;
+    border-radius: 50;
+}
+
+.space {
+    height: 60%;
+}
